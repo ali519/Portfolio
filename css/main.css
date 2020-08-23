@@ -1,0 +1,241 @@
+/* start all */
+
+body {
+    background-color: #FFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Comfortaa", 'Helvetica', 'Arial', 'sans-serif';
+}
+
+p {
+    font-family: "Quattrocento", 'sans-serif';
+}
+
+
+/* end all */
+
+
+/* start header */
+
+header {
+    font-family: 'Indie Flower', cursive;
+    font-size: 100px;
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+
+.cv--btn {
+    font-size: 50px;
+}
+
+.cv--btn:hover {
+    color: blue;
+}
+
+
+/* end header */
+
+
+/* start navbar */
+
+.navbar-nav {
+    padding-left: 350px;
+    font-size: 20px;
+    color: black;
+}
+
+
+/* end navbar */
+
+
+/* start about me */
+
+#about-me {
+    font-family: 'Arial', 'sans-serif';
+    background-color: #cfd1d0;
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.content {
+    width: fit-content;
+}
+
+#about-me h2 {
+    text-align: center;
+    color: #000000;
+    font-family: mostWasted;
+    font-size: 3.5em;
+    padding-top: 20px;
+    text-shadow: 3px 3px #ffffff;
+}
+
+#about-me-story {
+    background: rgba(255, 255, 255, .4);
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+#about-me-story img {
+    float: left;
+    width: 15%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#about-me-story p {
+    padding: 10px;
+    line-height: 125%;
+    font-family: "Times New Roman", serif;
+}
+
+#education,
+#interests {
+    width: 90%;
+    height: 100%;
+    background: rgba(255, 255, 255, .4);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+#education h3,
+#interests h3 {
+    text-align: center;
+    color: #000000;
+    font-family: mostWasted;
+    font-size: 30px;
+    text-shadow: 2px 2px #ffffff;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+#education li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.comp-image {
+    margin-top: -30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+#interests li {
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: -10px;
+    font-size: 20px;
+}
+
+
+/* end about me */
+
+
+/* start portfolio */
+
+.row-cover h2 {
+    padding-bottom: 25px;
+    font-size: 55px;
+    font-weight: bold;
+    padding-top: 48px;
+}
+
+.portfolio-projects {
+    margin-top: 0.625em;
+    font-family: "Comfortaa", 'Helvetica', 'Arial', 'sans-serif';
+}
+
+.portfolio-projects--title {
+    margin-top: 0.9375em;
+}
+
+.portfolio-projects--btn {
+    background: transparent;
+    color: #07374a;
+    border: 1px solid #07374a;
+    border-radius: 5px;
+    margin-bottom: -15px;
+}
+
+.portfolio-projects--btn:hover {
+    background: #07374a;
+    color: #f0f0e6;
+}
+
+.portfolio-projects--image {
+    margin-bottom: 1.875em;
+    padding-top: 5%;
+    width: 100%;
+}
+
+
+/* end portfolio */
+
+
+/* start footer */
+
+.contact-social-icons ul a li {
+    text-align: center;
+}
+
+#contact {
+    background-color: #07374a;
+    color: #FFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#contact h2 {
+    color: #25b79f;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: -5px;
+}
+
+.contact-social-icons p {
+    color: #25b79f;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.contact-social-icons ul a {
+    color: #25b79f;
+    list-style: none;
+}
+
+.contact-social-icons ul a:hover {
+    color: #f0f0e6;
+}
+
+.contact-social-icons ul a li {
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.contact-social-icons {
+    margin: 0 auto;
+}
+
+.ers {
+    font-size: 30px;
+    color: #25b79f;
+}
+
+
+/* end footer */
